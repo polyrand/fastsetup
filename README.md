@@ -1,6 +1,13 @@
 # fastsetup
 > Setup all the things
 
+Differences with the original fastsetup:
+
+* Install Docker and docker-compose
+* Install ripgrep, fzf and fail2ban
+* No conda installation (apps should run inside a Docker container)
+* Provides a Caddyfile template to edit manually, not automatically generated/working.
+
 First, do basic ubuntu configuration, such as updating packages, and turning on auto-updates:
 
 ```
